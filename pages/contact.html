@@ -1,0 +1,150 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Contact Asha — get in touch.">
+  <title>Contact | Asha Portfolio</title>
+  <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="navbar">
+    <a class="logo" href="../index.html">Asha.</a>
+
+    <nav>
+      <ul class="nav-links">
+        <li><a href="../index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="education.html">Education</a></li>
+        <li><a href="projects.html">Projects</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+
+    <div class="nav-right">
+      <button id="theme-toggle" type="button" aria-label="Toggle theme">
+        <svg class="icon-moon" xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg>
+        <svg class="icon-sun" xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="5"/><line x1="12" y1="1" x2="12" y2="3"/><line x1="12" y1="21" x2="12" y2="23"/><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"/><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"/><line x1="1" y1="12" x2="3" y2="12"/><line x1="21" y1="12" x2="23" y2="12"/><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"/><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"/></svg>
+      </button>
+      <button id="menu-toggle" class="menu-toggle" aria-label="Open navigation">☰</button>
+    </div>
+  </div>
+</header>
+
+<main>
+
+  <!-- HERO -->
+  <section class="hero-banner">
+    <img src="../images/hero.jpg" alt="Contact Asha">
+    <div class="hero-overlay"></div>
+    <div class="hero-content">
+      <h1 class="hero-title">Contact</h1>
+    </div>
+    <div class="hero-meta">
+      <strong>Phone</strong>+91 12345 67890<br>
+      <strong>Email</strong>asha@example.com<br>
+      <strong>Location</strong>India
+    </div>
+  </section>
+
+  <!-- CONTACT SECTION -->
+  <section class="section">
+    <div class="wrap">
+      <div class="contact-wrap">
+
+        <!-- Info side -->
+        <div class="contact-info reveal">
+          <h2>Let's<br>Talk.</h2>
+          <p class="body-text" style="margin-top:1rem;">
+            Whether you have an opportunity, a collaboration idea, or just want
+            to say hello — I would love to hear from you.
+          </p>
+          <div class="contact-detail" style="margin-top:2rem;">
+            <div>
+              <span class="cd-label">Email</span>
+              <a href="mailto:asha@example.com">asha@example.com</a>
+            </div>
+            <div>
+              <span class="cd-label">Phone</span>
+              <a href="tel:+911234567890">+91 12345 67890</a>
+            </div>
+            <div>
+              <span class="cd-label">Location</span>
+              <span>India</span>
+            </div>
+            <div>
+              <span class="cd-label">Availability</span>
+              <span>Open to internships &amp; collaborations</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Form side -->
+        <div class="reveal">
+          <form id="contact-form" class="contact-form" novalidate>
+            <div class="form-row">
+              <div class="fgroup">
+                <label for="name">Name</label>
+                <input type="text" id="name" name="name" placeholder="Your name" autocomplete="name">
+                <span class="form-error" id="name-error"></span>
+              </div>
+              <div class="fgroup">
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" placeholder="your@email.com" autocomplete="email">
+                <span class="form-error" id="email-error"></span>
+              </div>
+            </div>
+            <div class="fgroup">
+              <label for="subject">Subject</label>
+              <input type="text" id="subject" name="subject" placeholder="What is this about?">
+            </div>
+            <div class="fgroup">
+              <label for="message">Message</label>
+              <textarea id="message" name="message" placeholder="Write your message here..."></textarea>
+              <span class="form-error" id="message-error"></span>
+            </div>
+            <button type="submit" class="btn btn-primary">Send Message →</button>
+            <p class="form-success" id="form-success"></p>
+          </form>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="footer-inner">
+    <div>
+      <p class="footer-brand">Asha.</p>
+      <p class="footer-tagline">Student · Developer · Learner</p>
+    </div>
+    <div>
+      <h4>Explore</h4>
+      <nav class="footer-links">
+        <a href="../index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="education.html">Education</a>
+        <a href="projects.html">Projects</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+    </div>
+    <div>
+      <h4>Connect</h4>
+      <nav class="footer-links">
+        <a href="mailto:asha@example.com">asha@example.com</a>
+        <a href="tel:+911234567890">+91 12345 67890</a>
+      </nav>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    &copy; <span class="current-year"></span> Asha. All rights reserved.
+  </div>
+</footer>
+
+<script src="../js/script.js"></script>
+</body>
+</html>

@@ -1,0 +1,155 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Asha's projects — web, Java, Python and more.">
+  <title>Projects | Asha Portfolio</title>
+  <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="navbar">
+    <a class="logo" href="../index.html">Asha.</a>
+
+    <nav>
+      <ul class="nav-links">
+        <li><a href="../index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="education.html">Education</a></li>
+        <li><a href="projects.html">Projects</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+
+    <div class="nav-right">
+      <button id="theme-toggle" type="button" aria-label="Toggle theme">
+        <svg class="icon-moon" xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg>
+        <svg class="icon-sun" xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="5"/><line x1="12" y1="1" x2="12" y2="3"/><line x1="12" y1="21" x2="12" y2="23"/><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"/><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"/><line x1="1" y1="12" x2="3" y2="12"/><line x1="21" y1="12" x2="23" y2="12"/><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"/><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"/></svg>
+      </button>
+      <button id="menu-toggle" class="menu-toggle" aria-label="Open navigation">☰</button>
+    </div>
+  </div>
+</header>
+
+<main>
+
+  <!-- HERO -->
+  <section class="hero-banner">
+    <img src="../images/hero.jpg" alt="Projects">
+    <div class="hero-overlay"></div>
+    <div class="hero-content">
+      <h1 class="hero-title">Projects</h1>
+    </div>
+    <span class="hero-date">2026</span>
+  </section>
+
+  <!-- PROJECT LISTING -->
+  <section class="section">
+    <div class="wrap">
+
+      <div class="filter-row reveal">
+        <button class="filter-btn active" data-filter="all">All</button>
+        <button class="filter-btn" data-filter="web">Web</button>
+        <button class="filter-btn" data-filter="java">Java</button>
+        <button class="filter-btn" data-filter="python">Python</button>
+        <button class="filter-btn" data-filter="db">Database</button>
+      </div>
+
+      <div class="project-grid">
+
+        <article class="project-card reveal" data-category="web">
+          <span class="p-tag">Web</span>
+          <h3>Portfolio Website</h3>
+          <p>A responsive multi-page portfolio built entirely with HTML5, CSS3 and vanilla JavaScript. Features dark mode, smooth transitions and a mobile-first layout.</p>
+          <a class="p-link" href="contact.html">Discuss Project →</a>
+        </article>
+
+        <article class="project-card reveal" data-category="web">
+          <span class="p-tag">Web</span>
+          <h3>Weather Dashboard</h3>
+          <p>A browser app that fetches live weather data from a public API and renders it with dynamic charts and location search functionality.</p>
+          <a class="p-link" href="contact.html">Discuss Project →</a>
+        </article>
+
+        <article class="project-card reveal" data-category="java">
+          <span class="p-tag">Java</span>
+          <h3>Bank Management System</h3>
+          <p>A console-based application demonstrating OOP principles — classes for Account, Customer and Transaction with full CRUD operations.</p>
+          <a class="p-link" href="contact.html">Discuss Project →</a>
+        </article>
+
+        <article class="project-card reveal" data-category="java">
+          <span class="p-tag">Java</span>
+          <h3>Student Management System</h3>
+          <p>A Java Swing desktop application to manage student records, marks and attendance with a file-based persistence layer.</p>
+          <a class="p-link" href="contact.html">Discuss Project →</a>
+        </article>
+
+        <article class="project-card reveal" data-category="python">
+          <span class="p-tag">Python</span>
+          <h3>Student Result Analyzer</h3>
+          <p>A terminal application that reads CSV result sheets, calculates grades and statistics, and produces formatted summary reports.</p>
+          <a class="p-link" href="contact.html">Discuss Project →</a>
+        </article>
+
+        <article class="project-card reveal" data-category="python">
+          <span class="p-tag">Python</span>
+          <h3>File Organiser</h3>
+          <p>A Python script that automatically sorts files in a directory into categorised sub-folders based on file extension.</p>
+          <a class="p-link" href="contact.html">Discuss Project →</a>
+        </article>
+
+        <article class="project-card reveal" data-category="db">
+          <span class="p-tag">Database</span>
+          <h3>Library Management DB</h3>
+          <p>A normalised MySQL schema for a library system supporting books, members, loans and fines, with stored procedures and triggers.</p>
+          <a class="p-link" href="contact.html">Discuss Project →</a>
+        </article>
+
+        <article class="project-card reveal" data-category="web">
+          <span class="p-tag">Web</span>
+          <h3>Quiz App</h3>
+          <p>A single-page JavaScript quiz application with a timer, score tracking, randomised question order and a results breakdown screen.</p>
+          <a class="p-link" href="contact.html">Discuss Project →</a>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="footer-inner">
+    <div>
+      <p class="footer-brand">Asha.</p>
+      <p class="footer-tagline">Student · Developer · Learner</p>
+    </div>
+    <div>
+      <h4>Explore</h4>
+      <nav class="footer-links">
+        <a href="../index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="education.html">Education</a>
+        <a href="projects.html">Projects</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+    </div>
+    <div>
+      <h4>Connect</h4>
+      <nav class="footer-links">
+        <a href="mailto:asha@example.com">asha@example.com</a>
+        <a href="tel:+911234567890">+91 12345 67890</a>
+      </nav>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    &copy; <span class="current-year"></span> Asha. All rights reserved.
+  </div>
+</footer>
+
+<script src="../js/script.js"></script>
+</body>
+</html>

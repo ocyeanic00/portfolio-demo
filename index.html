@@ -1,0 +1,462 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Asha — Computer Science student, web developer & problem solver. Explore my portfolio, projects and skills.">
+  <title>Asha | Student Portfolio</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<!-- ══════════════════════════════════════════
+     HEADER / NAV
+══════════════════════════════════════════ -->
+<header class="site-header">
+  <div class="navbar">
+    <a class="logo" href="index.html">Asha.</a>
+
+    <nav>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="pages/about.html">About</a></li>
+        <li><a href="pages/education.html">Education</a></li>
+        <li><a href="pages/projects.html">Projects</a></li>
+        <li><a href="pages/contact.html">Contact</a></li>
+      </ul>
+    </nav>
+
+    <div class="nav-right">
+      <button id="theme-toggle" type="button" aria-label="Toggle theme">
+        <!-- moon (shown in light mode) -->
+        <svg class="icon-moon" xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+          <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/>
+        </svg>
+        <!-- sun (shown in dark mode) -->
+        <svg class="icon-sun" xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+          <circle cx="12" cy="12" r="5"/>
+          <line x1="12" y1="1"  x2="12" y2="3"/>
+          <line x1="12" y1="21" x2="12" y2="23"/>
+          <line x1="4.22" y1="4.22"  x2="5.64" y2="5.64"/>
+          <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"/>
+          <line x1="1"  y1="12" x2="3"  y2="12"/>
+          <line x1="21" y1="12" x2="23" y2="12"/>
+          <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"/>
+          <line x1="18.36" y1="5.64"  x2="19.78" y2="4.22"/>
+        </svg>
+      </button>
+      <button id="menu-toggle" class="menu-toggle" aria-label="Open navigation">☰</button>
+    </div>
+  </div>
+</header>
+
+<main>
+
+<!-- ══════════════════════════════════════════
+     01 · HERO BANNER
+══════════════════════════════════════════ -->
+<section class="hero-banner">
+  <img src="images/hero.jpg" alt="Asha — student developer">
+  <div class="hero-overlay"></div>
+
+  <!-- bottom-left: big title -->
+  <div class="hero-content">
+    <h1 class="hero-title">PORT-<br>FOLIO</h1>
+  </div>
+  <!-- right side: portrait photo -->
+  <div class="hero-portrait">
+    <img src="images/profile.jpg" alt="Asha — portrait">
+  </div>
+
+</section>
+
+<!-- ══════════════════════════════════════════
+     02 · WHO I AM  (intro split)
+══════════════════════════════════════════ -->
+<section class="section">
+  <div class="wrap">
+    <span class="section-label reveal">Student Portfolio</span>
+
+    <div class="split" style="margin-top:1.5rem; align-items:start;">
+
+      <!-- photo -->
+      <div class="photo-block reveal">
+        <img src="images/profile.jpg" alt="Asha profile illustration">
+        <span class="date-stamp">May 2026</span>
+      </div>
+
+      <!-- text -->
+      <div class="reveal">
+        <h2 class="intro-heading">Hello,<br>I'm<br>Asha.</h2>
+
+        <p class="body-text" style="margin-bottom:1rem;">
+          I am a third-year Computer Science student with a genuine passion for
+          web development, clean code and problem solving. I enjoy turning ideas
+          into functional, accessible digital products.
+        </p>
+        <p class="body-text" style="margin-bottom:1.5rem;">
+          My studies have equipped me with strong fundamentals in algorithms,
+          data structures, databases and software engineering. Outside the
+          classroom I build personal projects, contribute to open source and
+          continuously expand my technical skill set.
+        </p>
+
+        <!-- quick facts inline -->
+        <ul class="quick-facts">
+          <li><span class="qf-label">Degree</span>B.Tech Computer Science (2022–2026)</li>
+          <li><span class="qf-label">CGPA</span>8.4 / 10.0</li>
+          <li><span class="qf-label">Status</span>Open to internships &amp; collaborations</li>
+          <li><span class="qf-label">Languages</span>English · Hindi</li>
+        </ul>
+
+        <div class="cta-row">
+          <a class="btn btn-primary" href="pages/projects.html">View My Work</a>
+          <a class="btn btn-outline"  href="pages/about.html">More About Me</a>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+
+
+<!-- ══════════════════════════════════════════
+     04 · SKILLS
+══════════════════════════════════════════ -->
+<section class="section">
+  <div class="wrap">
+
+    <div class="split" style="align-items:start; gap:clamp(2rem,6vw,6rem);">
+
+      <div>
+        <span class="section-label reveal">Toolkit</span>
+        <h2 class="intro-heading reveal" style="margin-bottom:1rem;">Skills &amp;<br>Technologies</h2>
+        <p class="body-text reveal">
+          I work across the full web stack and have built projects in Java and
+          Python.
+        </p>
+      </div>
+
+      <div>
+        <!-- Frontend -->
+        <p class="skills-group-label reveal">Frontend</p>
+        <div class="skills-list" style="margin-top:.5rem; margin-bottom:1.25rem;">
+          <span class="skill-tag reveal">HTML5</span>
+          <span class="skill-tag reveal">CSS3</span>
+          <span class="skill-tag reveal">JavaScript</span>
+          <span class="skill-tag reveal">Responsive Design</span>
+          <span class="skill-tag reveal">Flexbox / Grid</span>
+        </div>
+
+        <!-- Backend / Languages -->
+        <p class="skills-group-label reveal">Languages</p>
+        <div class="skills-list" style="margin-top:.5rem; margin-bottom:1.25rem;">
+          <span class="skill-tag reveal">Python</span>
+          <span class="skill-tag reveal">Java</span>
+          <span class="skill-tag reveal">C</span>
+        </div>
+
+        <!-- Tools -->
+        <p class="skills-group-label reveal">Tools &amp; Databases</p>
+        <div class="skills-list" style="margin-top:.5rem;">
+          <span class="skill-tag reveal">MySQL</span>
+          <span class="skill-tag reveal">Git &amp; GitHub</span>
+          <span class="skill-tag reveal">VS Code</span>
+          <span class="skill-tag reveal">Linux CLI</span>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ══════════════════════════════════════════
+     05 · EDUCATION PREVIEW  (split with photo)
+══════════════════════════════════════════ -->
+<section class="section">
+  <div class="wrap">
+    <span class="section-label reveal">Academic Background</span>
+
+    <div class="split reverse" style="margin-top:1.5rem;">
+
+      <!-- photo right -->
+      <div class="photo-block reveal">
+        <img src="images/studying.jpg" alt="Studying">
+        <span class="date-stamp">May 2026</span>
+      </div>
+
+      <!-- text left -->
+      <div class="reveal">
+        <h2 class="intro-heading">My<br>Education</h2>
+        <p class="body-text" style="margin-bottom:2rem;">
+          Pursuing a B.Tech in Computer Science, I have built a strong foundation
+          across core engineering and computing disciplines — from algorithms and
+          operating systems to databases and software design.
+        </p>
+
+        <!-- inline mini-timeline -->
+        <div class="mini-timeline">
+          <div class="mt-item reveal">
+            <span class="mt-year">2022–Present</span>
+            <div>
+              <strong>B.Tech — Computer Science</strong>
+              <span>State Engineering College · CGPA 8.4</span>
+            </div>
+          </div>
+          <div class="mt-item reveal">
+            <span class="mt-year">2020–2022</span>
+            <div>
+              <strong>Class XII — CBSE (PCM + CS)</strong>
+              <span>City Senior Secondary School · 92%</span>
+            </div>
+          </div>
+          <div class="mt-item reveal">
+            <span class="mt-year">2018–2020</span>
+            <div>
+              <strong>Class X — CBSE</strong>
+              <span>City Senior Secondary School · 94%</span>
+            </div>
+          </div>
+        </div>
+
+        <a class="btn btn-outline" href="pages/education.html" style="margin-top:2rem;">
+          Full Education →
+        </a>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ══════════════════════════════════════════
+     06 · FEATURED PROJECTS
+══════════════════════════════════════════ -->
+<section class="section">
+  <div class="wrap">
+    <div class="section-header-row reveal">
+      <div>
+        <span class="section-label">Selected Work</span>
+        <h2 class="intro-heading" style="margin-top:.4rem;">Featured<br>Projects</h2>
+      </div>
+      <a class="btn btn-outline" href="pages/projects.html">All Projects →</a>
+    </div>
+
+    <div class="project-grid" style="margin-top:2.5rem;">
+
+      <article class="project-card reveal" data-category="web">
+        <span class="p-tag">Web · HTML / CSS / JS</span>
+        <h3>Portfolio Website</h3>
+        <p>
+          This multi-page responsive portfolio you are browsing right now.
+          Built from scratch with semantic HTML5, custom CSS (no frameworks),
+          and vanilla JavaScript. Features dark mode, scroll animations,
+          a contact form with live validation and a mobile-first layout.
+        </p>
+        <a class="p-link" href="pages/projects.html">View Details →</a>
+      </article>
+
+      <article class="project-card reveal" data-category="java">
+        <span class="p-tag">Java · OOP</span>
+        <h3>Bank Management System</h3>
+        <p>
+          A console-based Java application that simulates core banking
+          operations — account creation, deposits, withdrawals, transfers
+          and balance enquiry. Demonstrates inheritance, encapsulation,
+          polymorphism and exception handling.
+        </p>
+        <a class="p-link" href="pages/projects.html">View Details →</a>
+      </article>
+
+      <article class="project-card reveal" data-category="python">
+        <span class="p-tag">Python · Data</span>
+        <h3>Student Result Analyzer</h3>
+        <p>
+          Reads CSV result sheets, computes subject-wise and overall grades,
+          identifies pass/fail status and generates a clean terminal summary
+          report. Demonstrates file I/O, list comprehensions and formatted
+          output in Python.
+        </p>
+        <a class="p-link" href="pages/projects.html">View Details →</a>
+      </article>
+
+      <article class="project-card reveal" data-category="web">
+        <span class="p-tag">Web · JavaScript</span>
+        <h3>Quiz Application</h3>
+        <p>
+          A single-page JavaScript quiz app with countdown timer, randomised
+          question order, score tracking across sessions and a results
+          breakdown screen showing correct vs. incorrect answers.
+        </p>
+        <a class="p-link" href="pages/projects.html">View Details →</a>
+      </article>
+
+      <article class="project-card reveal" data-category="db">
+        <span class="p-tag">MySQL · Database</span>
+        <h3>Library Management DB</h3>
+        <p>
+          A fully normalised relational schema for a library system —
+          books, members, loans and fines. Includes stored procedures,
+          triggers for overdue detection and complex JOIN queries for
+          reporting.
+        </p>
+        <a class="p-link" href="pages/projects.html">View Details →</a>
+      </article>
+
+      <article class="project-card reveal" data-category="java">
+        <span class="p-tag">Java · Swing</span>
+        <h3>Student Management System</h3>
+        <p>
+          A Java Swing desktop GUI for managing student records, marks and
+          attendance. Uses file-based persistence and demonstrates event-driven
+          programming with ActionListeners and a custom table model.
+        </p>
+        <a class="p-link" href="pages/projects.html">View Details →</a>
+      </article>
+
+    </div>
+  </div>
+</section>
+
+<!-- ══════════════════════════════════════════
+     07 · HIGHLIGHT BAND  (full-width editorial strip)
+══════════════════════════════════════════ -->
+<div class="highlight-band reveal">
+  <div class="wrap hb-inner">
+    <p class="hb-quote">
+      "I don't just write code — I solve problems,<br>
+      one clean function at a time."
+    </p>
+    <a class="btn btn-outline hb-btn" href="pages/contact.html">Start a Conversation →</a>
+  </div>
+</div>
+
+<!-- ══════════════════════════════════════════
+     08 · CERTIFICATIONS STRIP
+══════════════════════════════════════════ -->
+<section class="section">
+  <div class="wrap">
+    <span class="section-label reveal">Extra Learning</span>
+    <h2 class="intro-heading reveal" style="margin-top:.4rem; margin-bottom:2.5rem;">Certifications</h2>
+
+    <div class="cert-list">
+      <div class="cert-item reveal">
+        <span class="cert-year">2024</span>
+        <div class="cert-body">
+          <strong>Responsive Web Design</strong>
+          <span>freeCodeCamp · 300 Hours · Online</span>
+        </div>
+        <span class="cert-badge">Certified</span>
+      </div>
+      <div class="cert-item reveal">
+        <span class="cert-year">2023</span>
+        <div class="cert-body">
+          <strong>Python for Everybody Specialisation</strong>
+          <span>Coursera · University of Michigan · 5 Courses</span>
+        </div>
+        <span class="cert-badge">Certified</span>
+      </div>
+      <div class="cert-item reveal">
+        <span class="cert-year">2023</span>
+        <div class="cert-body">
+          <strong>JavaScript Algorithms &amp; Data Structures</strong>
+          <span>freeCodeCamp · Online</span>
+        </div>
+        <span class="cert-badge">Certified</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ══════════════════════════════════════════
+     09 · CONTACT TEASER  (split CTA)
+══════════════════════════════════════════ -->
+<section class="section">
+  <div class="wrap">
+    <div class="split" style="align-items:center; gap:clamp(2rem,5vw,5rem);">
+
+      <div class="reveal">
+        <span class="section-label">Get In Touch</span>
+        <h2 class="intro-heading" style="margin-top:.4rem;">Let's<br>Work<br>Together.</h2>
+        <p class="body-text" style="margin-top:1rem;">
+          I am currently looking for internship opportunities, freelance
+          projects and open-source collaborations. If you have something
+          in mind, I would love to talk.
+        </p>
+        <div class="cta-row">
+          <a class="btn btn-primary" href="pages/contact.html">Send a Message</a>
+          <a class="btn btn-outline"  href="mailto:asha@example.com">asha@example.com</a>
+        </div>
+      </div>
+
+      <div class="contact-info-block reveal">
+        <div class="cib-item">
+          <span class="cib-label">Email</span>
+          <a href="mailto:asha@example.com">asha@example.com</a>
+        </div>
+        <div class="cib-item">
+          <span class="cib-label">Phone</span>
+          <a href="tel:+911234567890">+91 12345 67890</a>
+        </div>
+        <div class="cib-item">
+          <span class="cib-label">Location</span>
+          <span>India · Open to Remote</span>
+        </div>
+        <div class="cib-item">
+          <span class="cib-label">GitHub</span>
+          <a href="#">github.com/asha-dev</a>
+        </div>
+        <div class="cib-item">
+          <span class="cib-label">LinkedIn</span>
+          <a href="#">linkedin.com/in/asha</a>
+        </div>
+        <div class="cib-item">
+          <span class="cib-label">Availability</span>
+          <span class="avail-dot">● Available Now</span>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+</main>
+
+<!-- ══════════════════════════════════════════
+     FOOTER
+══════════════════════════════════════════ -->
+<footer class="site-footer">
+  <div class="footer-inner">
+    <div>
+      <p class="footer-brand">Asha.</p>
+      <p class="footer-tagline">Student · Developer · Learner</p>
+      <p class="footer-tagline" style="margin-top:.5rem;">B.Tech CS · India · 2026</p>
+    </div>
+    <div>
+      <h4>Pages</h4>
+      <nav class="footer-links">
+        <a href="index.html">Home</a>
+        <a href="pages/about.html">About</a>
+        <a href="pages/education.html">Education</a>
+        <a href="pages/projects.html">Projects</a>
+        <a href="pages/contact.html">Contact</a>
+      </nav>
+    </div>
+    <div>
+      <h4>Connect</h4>
+      <nav class="footer-links">
+        <a href="mailto:asha@example.com">asha@example.com</a>
+        <a href="tel:+911234567890">+91 12345 67890</a>
+        <a href="#">GitHub</a>
+        <a href="#">LinkedIn</a>
+      </nav>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    &copy; <span class="current-year"></span> Asha. All rights reserved. · Built with HTML, CSS &amp; JavaScript.
+  </div>
+</footer>
+
+<script src="js/script.js"></script>
+</body>
+</html>
